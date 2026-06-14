@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Why did FDA say no — and is it your risk?</title>
+<style>
+:root{--bg:#fcfaf5;--ink:#0a1e33;--soft:#2a3a4f;--muted:#6b7280;--rule:#cdd5dd;--amber:#c4842a}
+*{box-sizing:border-box}body{margin:0;font-family:'Source Serif 4',Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding:28px 22px}
+header.m{border-bottom:1.5px solid var(--ink);padding:14px 22px;display:flex;gap:12px;align-items:baseline}
+header.m a{color:var(--ink);text-decoration:none;font-weight:700}
+header.m .s{color:var(--muted);font-style:italic;font-size:13px}
+h1{font-size:30px;margin:.2em 0}.kick{color:var(--amber);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+a{color:#0a1e33;text-decoration:underline;text-decoration-color:rgba(196,132,42,.5)}
+.chip{display:inline-block;border:1px solid var(--rule);border-radius:999px;padding:2px 10px;margin:2px;font-size:13px;text-decoration:none}
+.sec{margin:20px 0}.sec h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);border-bottom:1px solid var(--rule);padding-bottom:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;padding:7px 8px;border-bottom:1px solid var(--rule)}
+.disc{color:var(--muted);font-size:12px;font-style:italic;margin-top:26px;border-top:1px solid var(--rule);padding-top:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+</style></head><body>
+<header class="m"><a href="index.html">CRL Intelligence Graph</a>
+<span class="s">public FDA records · educational, not regulatory advice</span></header>
+<div class="wrap"><div class="kick">open FDA regulatory-intelligence graph</div><h1>Why did FDA say no — and is it your risk?</h1>
+<p>An open knowledge graph that fuses FDA Complete Response Letters with Warning-Letter / recall / Import-Alert enforcement data at the company and facility level. <a href="explorer.html">Open the graph explorer</a> · <a href="wiki/index.html">Browse the wiki</a>.</p><div class="sec"><h2>Sponsors with a CRL AND an enforcement footprint</h2><table><tr><th>Sponsor</th><th>Linked events</th><th>Via</th></tr><tr><td>Sun Pharmaceutical Industries Ltd.</td><td>3</td><td>import_alert, recall</td></tr><tr><td>Glenmark Pharmaceuticals, Inc.</td><td>2</td><td>import_alert, recall</td></tr><tr><td>Mylan GmbH</td><td>2</td><td>import_alert, recall</td></tr><tr><td>Baxter Healthcare Corp.</td><td>2</td><td>import_alert, recall</td></tr><tr><td>Teva Pharmaceuticals USA, Inc.</td><td>1</td><td>recall</td></tr><tr><td>Hospira, Inc.</td><td>1</td><td>recall</td></tr><tr><td>AuroMedics Pharma LLC</td><td>1</td><td>recall</td></tr><tr><td>Valeant Pharmaceuticals</td><td>1</td><td>recall</td></tr></table></div><div class="sec"><h2>Repeat-rejected sponsors</h2><table><tr><td>Teva Pharmaceuticals USA, Inc.</td><td>5 CRLs</td></tr><tr><td>Mylan GmbH</td><td>5 CRLs</td></tr><tr><td>Celltrion, Inc.</td><td>5 CRLs</td></tr><tr><td>Dr. Reddy’s Laboratories</td><td>4 CRLs</td></tr><tr><td>Eli Lilly and Company</td><td>4 CRLs</td></tr><tr><td>Astellas Pharma US, Inc.</td><td>4 CRLs</td></tr><tr><td>CMP Development LLC</td><td>4 CRLs</td></tr><tr><td>Amgen Inc.</td><td>4 CRLs</td></tr></table></div><div class="sec"><h2>What FDA says no for</h2><table><tr><td>CMC</td><td>188</td></tr><tr><td>Clinical</td><td>150</td></tr><tr><td>Facility</td><td>46</td></tr><tr><td>Nonclinical</td><td>23</td></tr><tr><td>Labeling</td><td>20</td></tr><tr><td>Device</td><td>17</td></tr><tr><td>Regulatory</td><td>13</td></tr><tr><td>HF</td><td>9</td></tr></table></div><div class="disc">Educational, built on public FDA records (CRLs, recalls, Import Alert 66-40, debarment). Not regulatory advice. Matches are confidence-scored, not definitive.</div></div><!--WIDGETS-->
+<style>
+#guide{position:fixed;right:18px;bottom:18px;width:340px;max-width:92vw;background:#fff;
+border:1px solid var(--rule);border-radius:14px;box-shadow:0 16px 40px rgba(10,30,51,.18);
+font-size:14px;z-index:60;display:flex;flex-direction:column;max-height:70vh}
+#guide .gh{background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:14px 14px 0 0;
+font-weight:700;display:flex;align-items:center;gap:8px}
+#guide .gb{padding:12px;overflow:auto;flex:1}
+#guide .m{margin:0 0 10px;line-height:1.5}#guide .m.u{text-align:right}
+#guide .m.u span{background:var(--ink);color:var(--bg);padding:6px 10px;border-radius:12px 12px 2px 12px;display:inline-block}
+#guide .m.g span{background:#f3eedf;padding:6px 10px;border-radius:12px 12px 12px 2px;display:inline-block}
+#guide .gc{display:flex;gap:6px;padding:10px;border-top:1px solid var(--rule)}
+#guide input{flex:1;border:1px solid var(--rule);border-radius:8px;padding:8px;font:inherit}
+#guide button{border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:8px;padding:8px 12px;cursor:pointer}
+#screen textarea{width:100%;min-height:72px;border:1px solid var(--rule);border-radius:8px;padding:8px;font:inherit}
+.hit{border-left:3px solid var(--amber);padding:4px 10px;margin:6px 0;background:#fff}
+.clean{color:var(--muted);font-style:italic;padding:4px 10px}
+.greet{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--rule);border-radius:12px;padding:12px;margin:14px 0}
+.greet .av{width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,var(--ink),var(--amber));color:#fff;display:grid;place-items:center;font-weight:700;flex-shrink:0}
+</style>
+
+<div class="greet"><div class="av">CRL</div><div><strong>Your guide is here.</strong><br>
+<span style="color:var(--muted)">Ask me anything about the graph, or screen your own vendors against FDA watch lists — free, nothing leaves your browser.</span></div></div>
+
+<div class="sec" id="screen"><h2>Screen your vendors against FDA watch lists</h2>
+<p style="color:var(--muted);font-size:13px">Paste your CDMO / vendor names (one per line). Educational, not regulatory advice.</p>
+<textarea id="vlist" placeholder="Acme Pharma Ltd&#10;Contoso CDMO Inc"></textarea>
+<div style="margin-top:8px"><button onclick="runScreen()">Screen</button></div>
+<div id="sresult"></div></div>
+
+<div id="guide">
+  <div class="gh">Guide</div>
+  <div class="gb" id="gbody"><p class="m g"><span>…</span></p></div>
+  <div class="gc"><input id="gin" placeholder="ask about the graph…"
+    onkeydown="if(event.key==='Enter')gsend()"><button onclick="gsend()">Send</button></div>
+</div>
+
+<script>
+const SID='s'+Math.random().toString(36).slice(2);
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function gadd(who,t){const b=document.getElementById('gbody');
+ b.insertAdjacentHTML('beforeend',`<p class="m ${who}"><span>${esc(t)}</span></p>`);b.scrollTop=b.scrollHeight;}
+async function gchat(msg){const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
+ body:JSON.stringify({session:SID,msg})});return (await r.json());}
+async function gsend(){const i=document.getElementById('gin');const m=i.value.trim();if(!m)return;
+ i.value='';gadd('u',m);gadd('g','…');const d=await gchat(m);
+ const b=document.getElementById('gbody');b.lastElementChild.remove();gadd('g',d.text||'(…)');}
+(async()=>{const b=document.getElementById('gbody');b.innerHTML='';const d=await gchat('');gadd('g',d.text||'Hello.');})();
+async function runScreen(){
+ const names=document.getElementById('vlist').value.split('\n').map(s=>s.trim()).filter(Boolean);
+ if(!names.length)return;
+ const out=document.getElementById('sresult');out.innerHTML='<p class="clean">screening…</p>';
+ const r=await fetch('/api/screen',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({vendors:names})});
+ const d=await r.json();let h='';
+ (d.results||[]).forEach(v=>{
+  if(v.status==='FLAGGED'){h+=`<div class="hit"><strong>${esc(v.vendor)}</strong>`;
+   v.hits.forEach(x=>{h+=`<br>• ${esc(x.list)} — ${Math.round(x.confidence*100)}% ${esc(x.level)} (matched '${esc(x.matched_firm||'')}', src ${esc(x.source||'')})`;});
+   h+='</div>';}
+  else h+=`<div class="clean">${esc(v.vendor)} — no public watch-list match (not a clean bill — FDA does not inspect everyone)</div>`;});
+ if(d.exposure)h+=`<p style="margin-top:8px"><strong>Exposure index: ${d.exposure.exposure_index}</strong> (${esc(d.exposure.band)}). Descriptive, traceable, not predictive of FDA action.</p>`;
+ out.innerHTML=h||'<p class="clean">no vendors</p>';
+}
+</script>
+</body></html>

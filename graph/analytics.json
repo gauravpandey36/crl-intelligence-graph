@@ -1,0 +1,398 @@
+{
+  "totals": {
+    "nodes": 2360,
+    "edges": 2066
+  },
+  "repeat_rejected_sponsors": [
+    [
+      "Teva Pharmaceuticals USA, Inc.",
+      5
+    ],
+    [
+      "Mylan GmbH",
+      5
+    ],
+    [
+      "Celltrion, Inc.",
+      5
+    ],
+    [
+      "Dr. Reddy\u2019s Laboratories",
+      4
+    ],
+    [
+      "Eli Lilly and Company",
+      4
+    ],
+    [
+      "Astellas Pharma US, Inc.",
+      4
+    ],
+    [
+      "CMP Development LLC",
+      4
+    ],
+    [
+      "Amgen Inc.",
+      4
+    ],
+    [
+      "HQ Specialty Pharma Corp.",
+      3
+    ],
+    [
+      "Glenmark Pharmaceuticals, Inc.",
+      3
+    ],
+    [
+      "Hospira, Inc.",
+      3
+    ],
+    [
+      "Regeneron Pharmaceuticals, Inc.",
+      3
+    ],
+    [
+      "Takeda Pharmaceuticals USA, Inc.",
+      3
+    ],
+    [
+      "Azurity Pharmaceuticals, Inc.",
+      3
+    ],
+    [
+      "Salix Pharmaceuticals",
+      3
+    ]
+  ],
+  "cross_enforcement_sponsors": [
+    {
+      "company": "Sun Pharmaceutical Industries Ltd.",
+      "n_events": 3,
+      "vias": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Glenmark Pharmaceuticals, Inc.",
+      "n_events": 2,
+      "vias": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Mylan GmbH",
+      "n_events": 2,
+      "vias": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Baxter Healthcare Corp.",
+      "n_events": 2,
+      "vias": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Teva Pharmaceuticals USA, Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Hospira, Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "AuroMedics Pharma LLC",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Valeant Pharmaceuticals",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Dr. Reddy\u2019s Laboratories",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Regeneron Pharmaceuticals, Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Cipla USA Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Fresenius Kabi USA, LLC",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Pfizer Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Novo Nordisk",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Astellas Pharma US, Inc.",
+      "n_events": 1,
+      "vias": [
+        "recall"
+      ]
+    }
+  ],
+  "top_deficiency_types": [
+    [
+      "CMC",
+      188
+    ],
+    [
+      "Clinical",
+      150
+    ],
+    [
+      "Facility",
+      46
+    ],
+    [
+      "Nonclinical",
+      23
+    ],
+    [
+      "Labeling",
+      20
+    ],
+    [
+      "Device",
+      17
+    ],
+    [
+      "Regulatory",
+      13
+    ],
+    [
+      "HF",
+      9
+    ],
+    [
+      "Microbiology",
+      8
+    ],
+    [
+      "Clinical Pharmacology",
+      7
+    ],
+    [
+      "Statistical",
+      5
+    ],
+    [
+      "Clinical+CMC",
+      5
+    ]
+  ],
+  "therapeutic_area_fingerprint": {
+    "Metabolic": [
+      [
+        "Clinical",
+        6
+      ],
+      [
+        "CMC",
+        5
+      ],
+      [
+        "Nonclinical",
+        2
+      ]
+    ],
+    "Infectious Disease": [
+      [
+        "Clinical",
+        8
+      ],
+      [
+        "CMC",
+        3
+      ],
+      [
+        "Clinical+CMC",
+        1
+      ]
+    ],
+    "Oncology": [
+      [
+        "Clinical",
+        9
+      ],
+      [
+        "CMC",
+        4
+      ]
+    ],
+    "CNS": [
+      [
+        "CMC",
+        5
+      ],
+      [
+        "Clinical",
+        4
+      ],
+      [
+        "Facility",
+        1
+      ]
+    ],
+    "Pain": [
+      [
+        "Clinical",
+        4
+      ],
+      [
+        "CMC",
+        2
+      ],
+      [
+        "Facility",
+        2
+      ]
+    ],
+    "Immunology": [
+      [
+        "Clinical",
+        4
+      ],
+      [
+        "CMC",
+        3
+      ],
+      [
+        "Labeling",
+        1
+      ]
+    ],
+    "Rare Disease": [
+      [
+        "Clinical",
+        5
+      ],
+      [
+        "CMC",
+        2
+      ],
+      [
+        "Facility",
+        1
+      ]
+    ],
+    "Respiratory": [
+      [
+        "Clinical",
+        3
+      ],
+      [
+        "Facility",
+        2
+      ]
+    ]
+  },
+  "risk_hubs": [
+    [
+      "Mylan GmbH",
+      0.003,
+      7
+    ],
+    [
+      "Teva Pharmaceuticals USA, Inc.",
+      0.0025,
+      6
+    ],
+    [
+      "Sun Pharmaceutical Industries, Inc.",
+      0.0025,
+      6
+    ],
+    [
+      "Glenmark Pharmaceuticals, Inc.",
+      0.0021,
+      5
+    ],
+    [
+      "Dr. Reddy\u2019s Laboratories",
+      0.0021,
+      5
+    ],
+    [
+      "Celltrion, Inc.",
+      0.0021,
+      5
+    ],
+    [
+      "Astellas Pharma US, Inc.",
+      0.0021,
+      5
+    ],
+    [
+      "Amgen Inc.",
+      0.0021,
+      5
+    ],
+    [
+      "Hospira, Inc.",
+      0.0017,
+      4
+    ],
+    [
+      "Regeneron Pharmaceuticals, Inc.",
+      0.0017,
+      4
+    ],
+    [
+      "Sun Pharmaceutical Industries Ltd.",
+      0.0017,
+      4
+    ],
+    [
+      "Eli Lilly and Company",
+      0.0017,
+      4
+    ]
+  ],
+  "disclaimer": "Educational, public FDA records. Not regulatory advice. Cross-enforcement matches are confidence-scored, not definitive."
+}
