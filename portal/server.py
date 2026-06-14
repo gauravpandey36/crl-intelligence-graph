@@ -9,6 +9,7 @@ Public FDA data. Educational, not regulatory advice. Reuses the companion + scre
 """
 from __future__ import annotations
 import json
+import os
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -92,10 +93,11 @@ class H(BaseHTTPRequestHandler):
 def main():
     if not load_anthropic_key():
         print("WARN: no Anthropic key — companion will fail.", file=sys.stderr)
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 8791
+    # Cloud platforms (Railway/Render/Heroku) inject the port via $PORT; argv wins locally.
+    port = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get("PORT", "8791"))
+    print(f"CRL Intelligence Graph portal on 0.0.0.0:{port}", flush=True)
     ThreadingHTTPServer(("0.0.0.0", port), H).serve_forever()
 
 
 if __name__ == "__main__":
-    print(f"CRL Intelligence Graph portal on http://0.0.0.0:{sys.argv[1] if len(sys.argv)>1 else 8791}")
     main()

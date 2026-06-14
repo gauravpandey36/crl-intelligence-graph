@@ -1,0 +1,2 @@
+# CRL Intelligence Graph runs on the Python standard library only — no third-party deps.
+# This file is the Python build signal for the host (Railway/Nixpacks).
