@@ -34,6 +34,26 @@ def watch():
     return _WATCH
 
 
+# --- light rate-limit so a forwarded link can't run up the owner's API key ---
+GLOBAL_CAP = int(os.environ.get("CRL_CHAT_DAILY_CAP", "600"))
+SESSION_CAP = int(os.environ.get("CRL_CHAT_SESSION_CAP", "40"))
+_CHAT = {"day": None, "n": 0, "by": {}}
+
+
+def chat_allowed(sid: str):
+    import datetime
+    today = datetime.date.today().isoformat()
+    if _CHAT["day"] != today:
+        _CHAT.update(day=today, n=0, by={})
+    if _CHAT["n"] >= GLOBAL_CAP:
+        return False
+    if _CHAT["by"].get(sid, 0) >= SESSION_CAP:
+        return False
+    _CHAT["n"] += 1
+    _CHAT["by"][sid] = _CHAT["by"].get(sid, 0) + 1
+    return True
+
+
 class H(BaseHTTPRequestHandler):
     def _send(self, code, body: bytes, ctype):
         self.send_response(code)
@@ -67,6 +87,11 @@ class H(BaseHTTPRequestHandler):
             req = {}
         if self.path == "/api/chat":
             sid = req.get("session", "anon")
+            if req.get("msg") and not chat_allowed(sid):
+                return self._json(200, {"type": "SAY", "offer_upload": False, "text": (
+                    "You've reached the demo chat limit for now — the guide runs on a capped key. "
+                    "Everything else on the page (the graph, the wiki, and the vendor screener) still "
+                    "works without limits. Come back a bit later to keep chatting.")})
             sess = SESSIONS.get(sid)
             try:
                 if sess is None:

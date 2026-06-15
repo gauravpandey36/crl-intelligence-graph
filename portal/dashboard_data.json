@@ -1,0 +1,244 @@
+{
+  "totals": {
+    "crls": 333,
+    "companies": 288,
+    "drugs": 326,
+    "graph_nodes": 2360,
+    "graph_edges": 2066,
+    "import_alert_firms": 443,
+    "debarments": 272,
+    "recalls": 3000,
+    "cross_enforcement": 15,
+    "year_min": 2005,
+    "year_max": 2026
+  },
+  "by_year": {
+    "2005": 2,
+    "2006": 3,
+    "2007": 4,
+    "2008": 7,
+    "2009": 5,
+    "2010": 7,
+    "2011": 8,
+    "2012": 4,
+    "2013": 12,
+    "2014": 10,
+    "2015": 11,
+    "2016": 22,
+    "2017": 29,
+    "2018": 34,
+    "2019": 28,
+    "2020": 25,
+    "2021": 34,
+    "2022": 17,
+    "2023": 21,
+    "2024": 10,
+    "2025": 31,
+    "2026": 8
+  },
+  "by_app_type": {
+    "NDA": 238,
+    "BLA": 75,
+    "SNDA": 11,
+    "SBLA": 4,
+    "ANDA": 3,
+    "OTHER": 1,
+    "PMA/NDA": 1
+  },
+  "deficiency_categories": [
+    [
+      "CMC",
+      188
+    ],
+    [
+      "Clinical",
+      150
+    ],
+    [
+      "Facility",
+      46
+    ],
+    [
+      "Nonclinical",
+      23
+    ],
+    [
+      "Labeling",
+      20
+    ],
+    [
+      "Device",
+      17
+    ],
+    [
+      "Regulatory",
+      13
+    ],
+    [
+      "HF",
+      9
+    ],
+    [
+      "Microbiology",
+      8
+    ],
+    [
+      "Clinical Pharmacology",
+      7
+    ],
+    [
+      "Statistical",
+      5
+    ],
+    [
+      "Clinical+CMC",
+      5
+    ]
+  ],
+  "top_companies": [
+    [
+      "Celltrion, Inc.",
+      5
+    ],
+    [
+      "Eli Lilly and Company",
+      4
+    ],
+    [
+      "CMP Development LLC",
+      4
+    ],
+    [
+      "Hospira, Inc.",
+      3
+    ],
+    [
+      "Astellas Pharma US, Inc.",
+      3
+    ],
+    [
+      "Azurity Pharmaceuticals, Inc.",
+      3
+    ],
+    [
+      "Amgen Inc.",
+      3
+    ],
+    [
+      "Mylan",
+      3
+    ],
+    [
+      "Novavax",
+      3
+    ],
+    [
+      "HQ Specialty Pharma Corp.",
+      2
+    ]
+  ],
+  "therapeutic_areas": [
+    [
+      "Metabolic",
+      15
+    ],
+    [
+      "Infectious Disease",
+      14
+    ],
+    [
+      "Oncology",
+      13
+    ],
+    [
+      "Pain",
+      10
+    ],
+    [
+      "CNS",
+      9
+    ],
+    [
+      "Rare Disease",
+      8
+    ],
+    [
+      "Immunology",
+      7
+    ],
+    [
+      "Respiratory",
+      5
+    ],
+    [
+      "GI",
+      5
+    ],
+    [
+      "Cardiovascular",
+      5
+    ]
+  ],
+  "cross_enforcement_sponsors": [
+    {
+      "company": "Sun Pharmaceutical Industries Ltd.",
+      "events": 3,
+      "via": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Glenmark Pharmaceuticals, Inc.",
+      "events": 2,
+      "via": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Mylan GmbH",
+      "events": 2,
+      "via": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Baxter Healthcare Corp.",
+      "events": 2,
+      "via": [
+        "import_alert",
+        "recall"
+      ]
+    },
+    {
+      "company": "Teva Pharmaceuticals USA, Inc.",
+      "events": 1,
+      "via": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Hospira, Inc.",
+      "events": 1,
+      "via": [
+        "recall"
+      ]
+    },
+    {
+      "company": "AuroMedics Pharma LLC",
+      "events": 1,
+      "via": [
+        "recall"
+      ]
+    },
+    {
+      "company": "Valeant Pharmaceuticals",
+      "events": 1,
+      "via": [
+        "recall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "crl-portal",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/gouravpandey/GeneriCorp/crl-intelligence-graph-public/portal/server.py", "8127"],
+      "port": 8127
+    }
+  ]
+}
