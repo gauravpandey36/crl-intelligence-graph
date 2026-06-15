@@ -1,0 +1,2018 @@
+[
+ {
+  "slug": "mylan",
+  "name": "Mylan",
+  "crls": 3,
+  "enf": 2,
+  "exp": 40.0
+ },
+ {
+  "slug": "glenmark",
+  "name": "Glenmark",
+  "crls": 2,
+  "enf": 2,
+  "exp": 44.0
+ },
+ {
+  "slug": "glenmark-pharmaceuticals-inc",
+  "name": "Glenmark Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 2,
+  "exp": 44.0
+ },
+ {
+  "slug": "mylan-gmbh",
+  "name": "Mylan GmbH",
+  "crls": 1,
+  "enf": 2,
+  "exp": 40.0
+ },
+ {
+  "slug": "sun-pharmaceutical-industries-ltd",
+  "name": "Sun Pharmaceutical Industries Ltd.",
+  "crls": 1,
+  "enf": 2,
+  "exp": 19.0
+ },
+ {
+  "slug": "baxter-healthcare-corp",
+  "name": "Baxter Healthcare Corp.",
+  "crls": 1,
+  "enf": 2,
+  "exp": 19.0
+ },
+ {
+  "slug": "mylan-laboratories-ltd",
+  "name": "Mylan Laboratories Ltd.",
+  "crls": 1,
+  "enf": 2,
+  "exp": 40.0
+ },
+ {
+  "slug": "hospira-inc",
+  "name": "Hospira, Inc.",
+  "crls": 3,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "astellas-pharma-us-inc",
+  "name": "Astellas Pharma US, Inc.",
+  "crls": 3,
+  "enf": 1,
+  "exp": 4.2
+ },
+ {
+  "slug": "azurity-pharmaceuticals-inc",
+  "name": "Azurity Pharmaceuticals, Inc.",
+  "crls": 3,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "amgen-inc",
+  "name": "Amgen Inc.",
+  "crls": 3,
+  "enf": 1,
+  "exp": 7.0
+ },
+ {
+  "slug": "regeneron-pharmaceuticals-inc",
+  "name": "Regeneron Pharmaceuticals, Inc.",
+  "crls": 2,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "fresenius-kabi-usa-llc",
+  "name": "Fresenius Kabi USA, LLC",
+  "crls": 2,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "shilpa-medicare-ltd",
+  "name": "Shilpa Medicare Ltd.",
+  "crls": 2,
+  "enf": 1,
+  "exp": 24.0
+ },
+ {
+  "slug": "united-therapeutics-corp",
+  "name": "United Therapeutics Corp.",
+  "crls": 2,
+  "enf": 1,
+  "exp": 3.6
+ },
+ {
+  "slug": "gilead-sciences-inc",
+  "name": "Gilead Sciences, Inc.",
+  "crls": 2,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "teva-pharmaceuticals-usa",
+  "name": "Teva Pharmaceuticals USA",
+  "crls": 2,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "teva-pharmaceuticals-usa-inc",
+  "name": "Teva Pharmaceuticals USA, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "auromedics-pharma-llc",
+  "name": "AuroMedics Pharma LLC",
+  "crls": 1,
+  "enf": 1,
+  "exp": 16.0
+ },
+ {
+  "slug": "valeant-pharmaceuticals",
+  "name": "Valeant Pharmaceuticals",
+  "crls": 1,
+  "enf": 1,
+  "exp": 5.4
+ },
+ {
+  "slug": "dr-reddy-s-laboratories",
+  "name": "Dr. Reddy\u2019s Laboratories",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "teva-pharmaceuticals-inc",
+  "name": "Teva Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "cipla-usa-inc",
+  "name": "Cipla USA Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 16.0
+ },
+ {
+  "slug": "pfizer-inc",
+  "name": "Pfizer Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "novo-nordisk",
+  "name": "Novo Nordisk",
+  "crls": 1,
+  "enf": 1,
+  "exp": 11.2
+ },
+ {
+  "slug": "hikma-pharmaceuticals-usa-inc",
+  "name": "Hikma Pharmaceuticals USA Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 9.6
+ },
+ {
+  "slug": "adamis-pharmaceuticals-corp",
+  "name": "Adamis Pharmaceuticals Corp.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 11.2
+ },
+ {
+  "slug": "genentech-inc",
+  "name": "Genentech, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 18.0
+ },
+ {
+  "slug": "novartis-pharmaceuticals-corp",
+  "name": "Novartis Pharmaceuticals Corp.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 5.4
+ },
+ {
+  "slug": "accord-healthcare-inc",
+  "name": "Accord Healthcare, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 16.0
+ },
+ {
+  "slug": "novitium-pharma-llc",
+  "name": "Novitium Pharma LLC",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "abbvie-inc",
+  "name": "AbbVie Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 7.0
+ },
+ {
+  "slug": "impax-laboratories-llc",
+  "name": "Impax Laboratories, LLC",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "sandoz-inc",
+  "name": "Sandoz Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "ferring-pharmaceuticals-inc",
+  "name": "Ferring Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 7.0
+ },
+ {
+  "slug": "b-braun-medical",
+  "name": "B. Braun Medical",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "dr-reddy-s-laboratories-ltd",
+  "name": "Dr. Reddy\u2019s Laboratories Ltd.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "dr-reddy-s-laboratories-sa",
+  "name": "Dr. Reddy\u2019s Laboratories SA",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "actavis-llc",
+  "name": "Actavis LLC",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "lannett-holdings-inc",
+  "name": "Lannett Holdings, Inc.",
+  "crls": 1,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "sanofi-aventis",
+  "name": "Sanofi-Aventis",
+  "crls": 1,
+  "enf": 1,
+  "exp": 4.0
+ },
+ {
+  "slug": "pfizer",
+  "name": "Pfizer",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "merck",
+  "name": "Merck",
+  "crls": 1,
+  "enf": 1,
+  "exp": 3.6
+ },
+ {
+  "slug": "amgen",
+  "name": "Amgen",
+  "crls": 1,
+  "enf": 1,
+  "exp": 7.0
+ },
+ {
+  "slug": "novartis",
+  "name": "Novartis",
+  "crls": 1,
+  "enf": 1,
+  "exp": 5.4
+ },
+ {
+  "slug": "pacira-pharmaceuticals",
+  "name": "Pacira Pharmaceuticals",
+  "crls": 1,
+  "enf": 1,
+  "exp": 6.0
+ },
+ {
+  "slug": "bristol-myers-squibb",
+  "name": "Bristol-Myers Squibb",
+  "crls": 1,
+  "enf": 1,
+  "exp": 3.6
+ },
+ {
+  "slug": "teva",
+  "name": "Teva",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "lannett",
+  "name": "Lannett",
+  "crls": 1,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "endo-pharmaceuticals",
+  "name": "Endo Pharmaceuticals",
+  "crls": 1,
+  "enf": 1,
+  "exp": 14.0
+ },
+ {
+  "slug": "astellas",
+  "name": "Astellas",
+  "crls": 1,
+  "enf": 1,
+  "exp": 4.2
+ },
+ {
+  "slug": "dr-reddy-s",
+  "name": "Dr. Reddy's",
+  "crls": 1,
+  "enf": 1,
+  "exp": 10.0
+ },
+ {
+  "slug": "regeneron",
+  "name": "Regeneron",
+  "crls": 1,
+  "enf": 1,
+  "exp": 12.0
+ },
+ {
+  "slug": "abbvie",
+  "name": "AbbVie",
+  "crls": 1,
+  "enf": 1,
+  "exp": 7.0
+ },
+ {
+  "slug": "celltrion-inc",
+  "name": "Celltrion, Inc.",
+  "crls": 5,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "eli-lilly-and-company",
+  "name": "Eli Lilly and Company",
+  "crls": 4,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cmp-development-llc",
+  "name": "CMP Development LLC",
+  "crls": 4,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "novavax",
+  "name": "Novavax",
+  "crls": 3,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "hq-specialty-pharma-corp",
+  "name": "HQ Specialty Pharma Corp.",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "kala-pharmaceuticals",
+  "name": "Kala Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "tanvex-biopharma-usa-inc",
+  "name": "Tanvex BioPharma USA, Inc.",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "kashiv-biosciences-llc",
+  "name": "Kashiv BioSciences, LLC",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "spectrum-pharmaceuticals",
+  "name": "Spectrum Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "coherus-biosciences-inc",
+  "name": "Coherus BioSciences, Inc.",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "braintree-laboratories-inc",
+  "name": "Braintree Laboratories, Inc.",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "viiv-healthcare",
+  "name": "ViiV Healthcare",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sun-pharma",
+  "name": "Sun Pharma",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "novabay-pharmaceuticals",
+  "name": "NovaBay Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "arena-pharmaceuticals",
+  "name": "Arena Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "vivus",
+  "name": "Vivus",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "salix",
+  "name": "Salix",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "amag-pharmaceuticals",
+  "name": "Amag Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "vanda-pharmaceuticals",
+  "name": "Vanda Pharmaceuticals",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "assertio",
+  "name": "Assertio",
+  "crls": 2,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "proximagen-llc",
+  "name": "Proximagen, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "international-medication-systems-ltd",
+  "name": "International Medication Systems Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "zydus-worldwide-dmcc-zydus-pharmaceuticals",
+  "name": "Zydus Worldwide DMCC / Zydus Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "clearside-biomedical-inc",
+  "name": "Clearside Biomedical, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "coopersurgical-inc",
+  "name": "CooperSurgical, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "fabre-kramer-pharmaceuticals-organon",
+  "name": "Fabre-Kramer Pharmaceuticals / Organon",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "kyowa-pharmaceutical-inc",
+  "name": "Kyowa Pharmaceutical, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "mallinckrodt-orphan-therapeutics",
+  "name": "Mallinckrodt / Orphan Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ab-pharmaceuticals",
+  "name": "AB Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "antares-pharma-inc",
+  "name": "Antares Pharma, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "scpharmaceuticals-inc",
+  "name": "scPharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "braeburn-inc",
+  "name": "Braeburn Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "zhejiang-novus-pharmaceuticals-co-ltd",
+  "name": "Zhejiang Novus Pharmaceuticals Co. Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "emory-partners-llc-tris-pharma-inc",
+  "name": "Emory Partners, LLC / Tris Pharma, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "recro-pharma-inc",
+  "name": "Recro Pharma Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sedor-pharmaceuticals-llc",
+  "name": "Sedor Pharmaceuticals LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sunovion-pharmaceuticals",
+  "name": "Sunovion Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "daiichi-sankyo",
+  "name": "Daiichi Sankyo",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bausch-health-ireland",
+  "name": "Bausch Health Ireland",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bioprojet-pharma",
+  "name": "Bioprojet Pharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "recordati-rare-diseases",
+  "name": "Recordati Rare Diseases",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ultragenyx-pharmaceutical-inc",
+  "name": "Ultragenyx Pharmaceutical Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "accord-biopharma-inc",
+  "name": "Accord BioPharma Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "jiangsu-hengrui-pharmaceuticals-co-ltd",
+  "name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "seikagaku-corporation",
+  "name": "Seikagaku Corporation",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "heritage-avet-pharmaceuticals",
+  "name": "Heritage/Avet Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "stealth-biotherapeutics-inc",
+  "name": "Stealth BioTherapeutics Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aldeyra-therapeutics-inc",
+  "name": "Aldeyra Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "elevar-therapeutics-inc",
+  "name": "Elevar Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "resq-pharma",
+  "name": "ResQ Pharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "laurus-generics-inc",
+  "name": "Laurus Generics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "amneal-eu-limited-amneal-pharmaceuticals-of-new-york",
+  "name": "Amneal EU, Limited / Amneal Pharmaceuticals of New York",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "university-of-california-san-francisco",
+  "name": "University of California, San Francisco",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "milestone-pharmaceuticals-usa-inc",
+  "name": "Milestone Pharmaceuticals USA, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "telix-pharmaceuticals-us-inc",
+  "name": "Telix Pharmaceuticals (US) Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "unicycive-therapeutics-inc",
+  "name": "Unicycive Therapeutics Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "owp-pharmaceuticals-inc",
+  "name": "OWP Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "conjupro-biotherapeutics-inc",
+  "name": "Conjupro Biotherapeutics Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "chemo-research-s-l",
+  "name": "Chemo Research S.L.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ptc-therapeutics-inc",
+  "name": "PTC Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "revance-therapeutics-inc",
+  "name": "Revance Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "takeda-pharmaceuticals-usa-inc",
+  "name": "Takeda Pharmaceuticals USA, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "evolus-inc",
+  "name": "Evolus, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "immunomedics-inc",
+  "name": "Immunomedics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bioverativ-usa",
+  "name": "Bioverativ USA",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "leo-pharma-a-s",
+  "name": "LEO Pharma A/S",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "provention-bio",
+  "name": "Provention Bio",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "pfizer-ireland",
+  "name": "Pfizer Ireland",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "mediwound-vericel",
+  "name": "MediWound / Vericel",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bio-thera-solutions",
+  "name": "Bio-Thera Solutions",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ucb-inc",
+  "name": "UCB, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "chiesi-protalix",
+  "name": "Chiesi / Protalix",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "akeso-biopharma-co-ltd",
+  "name": "Akeso Biopharma Co., Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "checkpoint-therapeutics-inc",
+  "name": "Checkpoint Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "alvotech-usa-inc",
+  "name": "Alvotech USA, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "hugel-inc",
+  "name": "Hugel, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "citius-pharmaceuticals-inc",
+  "name": "Citius Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "alvotech-usa-inc",
+  "name": "Alvotech USA Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "samsung-bioepis",
+  "name": "Samsung Bioepis",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "laboratorios-farmac-uticos-rovi-s-a",
+  "name": "Laboratorios Farmac\u00e9uticos ROVI, S.A.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sarepta-therapeutics-inc",
+  "name": "Sarepta Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "heron-therapeutics-inc",
+  "name": "Heron Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "xeris-pharmaceuticals-inc",
+  "name": "Xeris Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "astrazeneca-ab",
+  "name": "AstraZeneca AB",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "par-sterile-products-llc",
+  "name": "Par Sterile Products, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "corium-inc",
+  "name": "Corium, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "therakind-limited",
+  "name": "Therakind Limited",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aveo-pharmaceuticals-inc",
+  "name": "AVEO Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "verrica-pharmaceuticals-inc",
+  "name": "Verrica Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "fennec-pharmaceuticals-inc",
+  "name": "Fennec Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "althera-life-sciences-llc",
+  "name": "Althera Life Sciences, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ingenus-ricon-pharma",
+  "name": "Ingenus/Ricon Pharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "shandong-luye",
+  "name": "Shandong Luye",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "xellia-pharmaceuticals-aps",
+  "name": "Xellia Pharmaceuticals ApS",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ardelyx-inc",
+  "name": "Ardelyx, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sarfez-pharmaceuticals-inc",
+  "name": "Sarfez Pharmaceuticals Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "esteve-pharmaceuticals-s-a",
+  "name": "Esteve Pharmaceuticals, S.A.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "nobelpharma-co-ltd",
+  "name": "Nobelpharma Co., Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "teva-neuroscience-inc",
+  "name": "Teva Neuroscience, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sanofi",
+  "name": "Sanofi",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "marius-pharmaceuticals-llc",
+  "name": "Marius Pharmaceuticals LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "iterum-therapeutics",
+  "name": "Iterum Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "takeda-pharmaceuticals-usa",
+  "name": "Takeda Pharmaceuticals USA",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "polarean-inc",
+  "name": "Polarean Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "medac-gmbh",
+  "name": "medac GmbH",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "acer-therapeutics-inc",
+  "name": "Acer Therapeutics Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "orphazyme-a-s",
+  "name": "Orphazyme A/S",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cormedix-inc",
+  "name": "CorMedix Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "nevakar-inc",
+  "name": "Nevakar, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ars-pharmaceuticals-inc",
+  "name": "ARS Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "akebia-therapeutics-inc",
+  "name": "Akebia Therapeutics, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aft-pharmaceuticals-ltd",
+  "name": "AFT Pharmaceuticals Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "eyenovia-inc",
+  "name": "Eyenovia, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "galephar-pharmaceutical-research-inc",
+  "name": "Galephar Pharmaceutical Research Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "amryt-pharmaceuticals-dac",
+  "name": "Amryt Pharmaceuticals DAC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "santen-inc",
+  "name": "Santen, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "phathom-pharmaceuticals-inc",
+  "name": "Phathom Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ipsen-biopharmaceuticals-inc",
+  "name": "Ipsen Biopharmaceuticals Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "almatica-pharma-llc",
+  "name": "Almatica Pharma, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "fidelity-biopharma-co",
+  "name": "Fidelity BioPharma Co.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "liqmeds-worldwide-ltd",
+  "name": "Liqmeds Worldwide Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ascendis-pharma-bone-diseases-a-s",
+  "name": "Ascendis Pharma Bone Diseases A/S",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "spes-pharmaceuticals-inc",
+  "name": "Spes Pharmaceuticals Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aop-orphan-pharmaceuticals-gmbh",
+  "name": "AOP Orphan Pharmaceuticals GmbH",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "botanix-sb-inc",
+  "name": "Botanix SB Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "scienture-inc",
+  "name": "Scienture Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "samsung-bioepis-co-ltd",
+  "name": "Samsung Bioepis Co., Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cyclomedica-australia-pty-ltd",
+  "name": "Cyclomedica Australia Pty Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cadence-pharmaceuticals-inc",
+  "name": "Cadence Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "emd-serono-inc",
+  "name": "EMD Serono, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "feinstein-institute-for-medical-research",
+  "name": "Feinstein Institute for Medical Research",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ferring-pharmaceuticals-inc-teva-women-s-health",
+  "name": "Ferring Pharmaceuticals, Inc. / Teva Women\u2019s Health",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "delcath-systems-inc",
+  "name": "Delcath Systems, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "chiesi-usa-inc-pharmaxis-ltd",
+  "name": "Chiesi USA, Inc. / Pharmaxis Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "northstar-medical-radioisotopes-llc",
+  "name": "NorthStar Medical Radioisotopes, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "fera-pharmaceuticals-llc",
+  "name": "Fera Pharmaceuticals, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "agile-therapeutics",
+  "name": "Agile Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "durect",
+  "name": "DURECT",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "gp-pharm-elc-group",
+  "name": "GP Pharm / ELC Group",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "intelgenx-redhill",
+  "name": "IntelGenx / RedHill",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "clarus-therapeutics",
+  "name": "Clarus Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "innopharma-licensing-llc",
+  "name": "InnoPharma Licensing LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "institut-biochimique-sa",
+  "name": "Institut Biochimique SA",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "scilex-pharmaceuticals-inc",
+  "name": "Scilex Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "belcher-pharmaceuticals-llc",
+  "name": "Belcher Pharmaceuticals, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "metacel-pharmaceuticals-llc",
+  "name": "Metacel Pharmaceuticals, LLC",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "chiasma-inc",
+  "name": "Chiasma Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "3m-health-care",
+  "name": "3M Health Care",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "evofem-inc",
+  "name": "Evofem, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "therapeuticsmd-inc",
+  "name": "TherapeuticsMD, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sun-pharma-global-fze",
+  "name": "Sun Pharma Global FZE",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ocular-therapeutix-inc",
+  "name": "Ocular Therapeutix, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "amphastar-pharmaceuticals-inc",
+  "name": "Amphastar Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "acelrx-pharmaceuticals-inc",
+  "name": "AcelRx Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ironshore-pharmaceuticals-development-inc",
+  "name": "Ironshore Pharmaceuticals & Development, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "dow-pharmaceutical-sciences-valeant",
+  "name": "Dow Pharmaceutical Sciences/Valeant",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "evoke-pharma-inc",
+  "name": "Evoke Pharma, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aft-pharmaceuticals-inc",
+  "name": "AFT Pharmaceuticals, Inc.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "acacia-pharma-ltd",
+  "name": "Acacia Pharma Ltd.",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "innocoll-pharmaceuticals",
+  "name": "Innocoll Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bayer-onyx",
+  "name": "Bayer/Onyx",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "takeda",
+  "name": "Takeda",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "orexigen",
+  "name": "Orexigen",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "intermune",
+  "name": "InterMune",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "salix-pharmaceuticals",
+  "name": "Salix Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "pozen",
+  "name": "Pozen",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "dendreon",
+  "name": "Dendreon",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "genta",
+  "name": "Genta",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "map-pharmaceuticals",
+  "name": "MAP Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "questcor",
+  "name": "Questcor",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ampio-pharmaceuticals",
+  "name": "Ampio Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "chelsea-therapeutics",
+  "name": "Chelsea Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "human-genome-sciences",
+  "name": "Human Genome Sciences",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "mannkind",
+  "name": "MannKind",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "biosig-technologies",
+  "name": "BioSig Technologies",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "corcept-therapeutics",
+  "name": "Corcept Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "intercept-pharmaceuticals",
+  "name": "Intercept Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "puma-biotechnology",
+  "name": "Puma Biotechnology",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "keryx-biopharmaceuticals",
+  "name": "Keryx Biopharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "galena-biopharma",
+  "name": "Galena Biopharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "onyx-pharmaceuticals",
+  "name": "Onyx Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "raptor-pharmaceutical",
+  "name": "Raptor Pharmaceutical",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "otsuka-lundbeck",
+  "name": "Otsuka/Lundbeck",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "retrophin",
+  "name": "Retrophin",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "nps-pharmaceuticals",
+  "name": "NPS Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "alexion",
+  "name": "Alexion",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "adaptimmune",
+  "name": "Adaptimmune",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "achillion-pharmaceuticals",
+  "name": "Achillion Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "biomarin",
+  "name": "Biomarin",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "heron-therapeutics",
+  "name": "Heron Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "rigel-pharmaceuticals",
+  "name": "Rigel Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cempra",
+  "name": "Cempra",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "achaogen",
+  "name": "Achaogen",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "radius-health",
+  "name": "Radius Health",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "tetraphase-biosciences",
+  "name": "Tetraphase Biosciences",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "zafgen",
+  "name": "Zafgen",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "zealand-pharma",
+  "name": "Zealand Pharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "axsome-therapeutics",
+  "name": "Axsome Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cytrx",
+  "name": "CytRx",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "esperion",
+  "name": "Esperion",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "mallinckrodt",
+  "name": "Mallinckrodt",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "nabriva",
+  "name": "Nabriva",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "paratek",
+  "name": "Paratek",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sangamo",
+  "name": "Sangamo",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "ultragenyx",
+  "name": "Ultragenyx",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "amneal-impax",
+  "name": "Amneal/Impax",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "biomarin",
+  "name": "BioMarin",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "citius-pharmaceuticals",
+  "name": "Citius Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "hq-specialty-pharma",
+  "name": "HQ Specialty Pharma",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "iterion-therapeutics",
+  "name": "Iterion Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "la-jolla-pharmaceutical",
+  "name": "La Jolla Pharmaceutical",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "palatin-technologies",
+  "name": "Palatin Technologies",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aimmune",
+  "name": "Aimmune",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "bioventus",
+  "name": "Bioventus",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cytodyn",
+  "name": "CytoDyn",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "kempharm",
+  "name": "KemPharm",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "sorrento",
+  "name": "Sorrento",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "cassava-sciences",
+  "name": "Cassava Sciences",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "biogen",
+  "name": "Biogen",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "mdma-therapy",
+  "name": "MDMA therapy",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "inhibrx",
+  "name": "Inhibrx",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "pierre-fabre-pharmaceuticals",
+  "name": "Pierre Fabre Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aquestive-therapeutics",
+  "name": "Aquestive Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "grace-therapeutics",
+  "name": "Grace Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "roche-genentech",
+  "name": "Roche/Genentech",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "aldeyra-therapeutics",
+  "name": "Aldeyra Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "astrazeneca",
+  "name": "AstraZeneca",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "gsk",
+  "name": "GSK",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "outlook-therapeutics",
+  "name": "Outlook Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "saol-therapeutics",
+  "name": "Saol Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "lexicon-pharmaceuticals",
+  "name": "Lexicon Pharmaceuticals",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "lykos-therapeutics",
+  "name": "Lykos Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "kyowa-kirin",
+  "name": "Kyowa Kirin",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ },
+ {
+  "slug": "capricor-therapeutics",
+  "name": "Capricor Therapeutics",
+  "crls": 1,
+  "enf": 0,
+  "exp": 0.0
+ }
+]

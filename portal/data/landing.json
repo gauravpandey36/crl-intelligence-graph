@@ -1,0 +1,372 @@
+{
+ "totals": {
+  "crls": 333,
+  "companies": 286,
+  "drugs": 326,
+  "cross_enforcement_firms": 54,
+  "repeat_rejected_firms": 9,
+  "year_min": 2002,
+  "year_max": 2026,
+  "top_deficiency": "CMC",
+  "top_deficiency_n": 103,
+  "ia_firms": 443,
+  "debarments": 272,
+  "recalls": 656
+ },
+ "marquee": [
+  {
+   "slug": "sun-pharmaceutical-industries-ltd",
+   "name": "Sun Pharmaceutical Industries Ltd.",
+   "events": 3,
+   "via": [
+    "import_alert",
+    "recall"
+   ],
+   "crls": 1
+  },
+  {
+   "slug": "glenmark-pharmaceuticals-inc",
+   "name": "Glenmark Pharmaceuticals, Inc.",
+   "events": 2,
+   "via": [
+    "import_alert",
+    "recall"
+   ],
+   "crls": 1
+  },
+  {
+   "slug": "mylan-gmbh",
+   "name": "Mylan GmbH",
+   "events": 2,
+   "via": [
+    "import_alert",
+    "recall"
+   ],
+   "crls": 1
+  },
+  {
+   "slug": "baxter-healthcare-corp",
+   "name": "Baxter Healthcare Corp.",
+   "events": 2,
+   "via": [
+    "import_alert",
+    "recall"
+   ],
+   "crls": 1
+  },
+  {
+   "slug": "teva-pharmaceuticals-usa-inc",
+   "name": "Teva Pharmaceuticals USA, Inc.",
+   "events": 1,
+   "via": [
+    "recall"
+   ],
+   "crls": 1
+  },
+  {
+   "slug": "hospira-inc",
+   "name": "Hospira, Inc.",
+   "events": 1,
+   "via": [
+    "recall"
+   ],
+   "crls": 3
+  }
+ ],
+ "deficiency_categories": [
+  [
+   "CMC",
+   103
+  ],
+  [
+   "Clinical",
+   101
+  ],
+  [
+   "Facility",
+   26
+  ],
+  [
+   "CMC & Clinical",
+   17
+  ],
+  [
+   "Clinical & CMC",
+   15
+  ],
+  [
+   "Labeling",
+   11
+  ],
+  [
+   "Regulatory",
+   7
+  ],
+  [
+   "Nonclinical & CMC",
+   7
+  ],
+  [
+   "CMC & Nonclinical",
+   6
+  ],
+  [
+   "Nonclinical",
+   5
+  ]
+ ],
+ "by_year": {
+  "2002": 1,
+  "2005": 2,
+  "2006": 3,
+  "2007": 4,
+  "2008": 7,
+  "2009": 5,
+  "2010": 7,
+  "2011": 8,
+  "2012": 4,
+  "2013": 12,
+  "2014": 10,
+  "2015": 11,
+  "2016": 22,
+  "2017": 29,
+  "2018": 34,
+  "2019": 28,
+  "2020": 25,
+  "2021": 34,
+  "2022": 17,
+  "2023": 21,
+  "2024": 10,
+  "2025": 31,
+  "2026": 8
+ },
+ "by_app_type": [
+  [
+   "NDA",
+   238
+  ],
+  [
+   "BLA",
+   75
+  ],
+  [
+   "SNDA",
+   11
+  ],
+  [
+   "SBLA",
+   4
+  ],
+  [
+   "ANDA",
+   3
+  ],
+  [
+   "PMA/NDA",
+   1
+  ]
+ ],
+ "most_exposed": [
+  {
+   "slug": "glenmark",
+   "name": "Glenmark",
+   "crls": 2,
+   "events": 2,
+   "exp": 44.0,
+   "band": "Moderate",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "glenmark-pharmaceuticals-inc",
+   "name": "Glenmark Pharmaceuticals, Inc.",
+   "crls": 1,
+   "events": 2,
+   "exp": 44.0,
+   "band": "Moderate",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "mylan",
+   "name": "Mylan",
+   "crls": 3,
+   "events": 2,
+   "exp": 40.0,
+   "band": "Moderate",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "mylan-gmbh",
+   "name": "Mylan GmbH",
+   "crls": 1,
+   "events": 2,
+   "exp": 40.0,
+   "band": "Moderate",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "mylan-laboratories-ltd",
+   "name": "Mylan Laboratories Ltd.",
+   "crls": 1,
+   "events": 2,
+   "exp": 40.0,
+   "band": "Moderate",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "shilpa-medicare-ltd",
+   "name": "Shilpa Medicare Ltd.",
+   "crls": 2,
+   "events": 1,
+   "exp": 24.0,
+   "band": "Moderate",
+   "kinds": [
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "sun-pharmaceutical-industries-ltd",
+   "name": "Sun Pharmaceutical Industries Ltd.",
+   "crls": 1,
+   "events": 2,
+   "exp": 19.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "baxter-healthcare-corp",
+   "name": "Baxter Healthcare Corp.",
+   "crls": 1,
+   "events": 2,
+   "exp": 19.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls",
+    "Import Alert 66-40"
+   ]
+  },
+  {
+   "slug": "genentech-inc",
+   "name": "Genentech, Inc.",
+   "crls": 1,
+   "events": 1,
+   "exp": 18.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls"
+   ]
+  },
+  {
+   "slug": "auromedics-pharma-llc",
+   "name": "AuroMedics Pharma LLC",
+   "crls": 1,
+   "events": 1,
+   "exp": 16.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls"
+   ]
+  },
+  {
+   "slug": "cipla-usa-inc",
+   "name": "Cipla USA Inc.",
+   "crls": 1,
+   "events": 1,
+   "exp": 16.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls"
+   ]
+  },
+  {
+   "slug": "accord-healthcare-inc",
+   "name": "Accord Healthcare, Inc.",
+   "crls": 1,
+   "events": 1,
+   "exp": 16.0,
+   "band": "Low",
+   "kinds": [
+    "FDA recalls"
+   ]
+  }
+ ],
+ "most_rejected": [
+  {
+   "slug": "celltrion-inc",
+   "name": "Celltrion, Inc.",
+   "crls": 5
+  },
+  {
+   "slug": "eli-lilly-and-company",
+   "name": "Eli Lilly and Company",
+   "crls": 4
+  },
+  {
+   "slug": "cmp-development-llc",
+   "name": "CMP Development LLC",
+   "crls": 4
+  },
+  {
+   "slug": "hospira-inc",
+   "name": "Hospira, Inc.",
+   "crls": 3
+  },
+  {
+   "slug": "astellas-pharma-us-inc",
+   "name": "Astellas Pharma US, Inc.",
+   "crls": 3
+  },
+  {
+   "slug": "azurity-pharmaceuticals-inc",
+   "name": "Azurity Pharmaceuticals, Inc.",
+   "crls": 3
+  },
+  {
+   "slug": "amgen-inc",
+   "name": "Amgen Inc.",
+   "crls": 3
+  },
+  {
+   "slug": "mylan",
+   "name": "Mylan",
+   "crls": 3
+  },
+  {
+   "slug": "novavax",
+   "name": "Novavax",
+   "crls": 3
+  },
+  {
+   "slug": "hq-specialty-pharma-corp",
+   "name": "HQ Specialty Pharma Corp.",
+   "crls": 2
+  },
+  {
+   "slug": "kala-pharmaceuticals",
+   "name": "Kala Pharmaceuticals",
+   "crls": 2
+  },
+  {
+   "slug": "tanvex-biopharma-usa-inc",
+   "name": "Tanvex BioPharma USA, Inc.",
+   "crls": 2
+  }
+ ]
+}

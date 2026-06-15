@@ -1,0 +1,114 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CRL Intelligence — why FDA said no, and is it your risk?</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--p:#4F46E5;--sky:#0EA5E9;--amb:#F59E0B;--ink:#0F172A;--mut:#64748B;--bg:#F8FAFC;--card:#fff;--rule:#E2E8F0}
+*{box-sizing:border-box}body{margin:0;font-family:'Inter',-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.bar{background:#fff;border-bottom:1px solid var(--rule);padding:10px 18px;display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:50;flex-wrap:wrap}
+.bar a.brand{font-weight:700;color:var(--p);text-decoration:none}.bar a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500}.bar a:hover{color:var(--p)}.bar .sp{flex:1}
+.wrap{max-width:1040px;margin:0 auto;padding:30px 18px 70px}
+.kick{color:var(--amb);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+h1{font-size:34px;line-height:1.12;margin:.15em 0 .35em;max-width:880px}
+.lead{font-size:18px;color:#334155;max-width:760px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:22px 0}
+.kpi{background:#fff;border:1px solid var(--rule);border-radius:12px;padding:13px 15px}
+.kpi .n{font-size:27px;font-weight:700;line-height:1}.kpi .l{color:var(--mut);font-size:12.5px;margin-top:4px}
+.kpi.hot .n{color:#B91C1C}
+.jtbd{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 4px}
+.jtbd button,.jtbd a{background:#fff;border:1.5px solid var(--p);color:var(--p);border-radius:10px;padding:11px 16px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;font-size:15px}
+.jtbd button.p,.jtbd a.p{background:var(--p);color:#fff}
+.search{display:flex;gap:8px;margin:14px 0}
+.search input{flex:1;max-width:420px;border:1px solid var(--rule);border-radius:10px;padding:11px 14px;font:inherit}
+h2.sec{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--p);border-bottom:1px solid var(--rule);padding-bottom:6px;margin:34px 0 14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.mq{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--amb);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink);display:block}
+.mq:hover{box-shadow:0 8px 24px rgba(15,23,42,.10)}
+.mq .nm{font-weight:700;font-size:16px}.mq .ev{color:#991B1B;font-size:13.5px;font-weight:600;margin-top:3px}.mq .via{color:var(--mut);font-size:12.5px;margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+th{background:#F8FAFC;text-align:left;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);padding:9px 12px}
+td{padding:9px 12px;border-top:1px solid var(--rule)}td a{color:var(--p);text-decoration:none;font-weight:600}
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}@media(max-width:760px){.two{grid-template-columns:1fr}h1{font-size:27px}}
+.chartbox{background:#fff;border:1px solid var(--rule);border-radius:12px;padding:14px 16px}.cv{position:relative;height:250px}
+.prov{font-size:12.5px;color:var(--mut);margin-top:26px;border-top:1px solid var(--rule);padding-top:12px}
+/* guide + screener */
+.crl-launch{position:fixed;right:18px;bottom:18px;z-index:90;background:var(--p);color:#fff;border:none;border-radius:999px;padding:12px 18px;font:inherit;font-weight:600;cursor:pointer;box-shadow:0 10px 30px rgba(79,70,229,.4);display:flex;gap:8px;align-items:center}.crl-launch .d{width:9px;height:9px;border-radius:50%;background:#34D399}
+.panel{position:fixed;right:18px;bottom:18px;width:360px;max-width:93vw;max-height:74vh;background:#fff;border:1px solid var(--rule);border-radius:14px;box-shadow:0 18px 50px rgba(15,23,42,.22);z-index:91;display:none;flex-direction:column}
+.panel .h{background:var(--p);color:#fff;padding:11px 14px;border-radius:14px 14px 0 0;font-weight:600;display:flex;justify-content:space-between}.panel .h button{background:none;border:none;color:#fff;font-size:20px;cursor:pointer}
+.panel .b{padding:13px;overflow:auto;flex:1;font-size:14px}.panel .f{display:flex;gap:6px;padding:10px;border-top:1px solid var(--rule)}.panel input{flex:1;border:1px solid var(--rule);border-radius:8px;padding:9px;font:inherit}.panel .f button,.go{border:none;background:var(--p);color:#fff;border-radius:8px;padding:9px 13px;cursor:pointer;font:inherit;font-weight:600}
+#sc textarea{width:100%;min-height:74px;border:1px solid var(--rule);border-radius:8px;padding:8px;font:inherit;margin-bottom:8px}
+.m{margin:0 0 9px}.m.u{text-align:right}.m.u span{background:var(--p);color:#fff;padding:6px 10px;border-radius:12px 12px 2px 12px;display:inline-block}.m.g span{background:#EEF2FF;padding:6px 10px;border-radius:12px 12px 12px 2px;display:inline-block}
+.hit{border-left:3px solid var(--amb);background:#FFFBEB;padding:5px 10px;margin:6px 0;font-size:13px}.clean{color:var(--mut);font-style:italic;font-size:13px;padding:4px 10px}
+</style></head><body>
+<div class="bar"><a class="brand" href="home.html">CRL Intelligence</a>
+ <a href="dashboard.html">Full dashboard</a><a href="explorer.html">Graph</a><a href="wiki/index.html">Wiki</a>
+ <span class="sp"></span><input id="cs" list="cl" placeholder="look up a company…" style="border:1px solid var(--rule);border-radius:8px;padding:7px 11px;font:inherit;min-width:200px" onchange="go(this.value)"><datalist id="cl"></datalist></div>
+
+<div class="wrap">
+ <div class="kick">FDA complete response letters × the enforcement record</div>
+ <h1 id="verdict">Why did FDA say no — and is it your risk?</h1>
+ <p class="lead" id="lead">Loading the verdict…</p>
+ <div class="kpis" id="kpis"></div>
+ <div class="jtbd">
+  <button class="p" onclick="SC.open()">Screen a vendor</button>
+  <button onclick="document.getElementById('cs').focus()">Look up a company</button>
+  <a href="#patterns">Explore failure patterns</a>
+  <a href="dashboard.html">Open the full dashboard ↗</a>
+ </div>
+
+ <h2 class="sec">Is it your risk? — companies with a CRL <i>and</i> an enforcement footprint</h2>
+ <div class="cards" id="marquee"></div>
+
+ <div class="two" style="margin-top:18px">
+  <div><h2 class="sec" style="margin-top:0">Most-exposed sponsors</h2>
+   <table id="exposed"><thead><tr><th>Company</th><th>CRLs</th><th>Enforcement</th><th>Exposure</th></tr></thead><tbody></tbody></table></div>
+  <div id="patterns"><h2 class="sec" style="margin-top:0">Why FDA says no</h2>
+   <div class="chartbox"><div class="cv"><canvas id="cDef"></canvas></div></div></div>
+ </div>
+
+ <h2 class="sec">Rejections by year</h2>
+ <div class="chartbox"><div class="cv"><canvas id="cYear"></canvas></div></div>
+
+ <div class="prov">Built on public FDA records — Complete Response Letters, recalls, Import Alert 66-40, and the debarment list — fused at the company level. Every figure traces to its source; matches are confidence-scored, not definitive; absence of a signal is not a clean bill of health. Educational, not regulatory advice. <a href="dashboard.html">Full dashboard</a> · <a href="explorer.html">graph</a>.</div>
+</div>
+
+<button class="crl-launch" id="gl" onclick="G.open()"><span class="d"></span> Ask the guide</button>
+<div class="panel" id="g"><div class="h"><span>Your guide</span><button onclick="G.close()">&times;</button></div>
+ <div class="b" id="gb"></div><div class="f"><input id="gi" placeholder="ask about the data…" onkeydown="if(event.key==='Enter')G.send()"><button onclick="G.send()">Send</button></div></div>
+<div class="panel" id="sc"><div class="h"><span>Screen your vendors</span><button onclick="SC.close()">&times;</button></div>
+ <div class="b"><p style="color:var(--mut);font-size:12.5px;margin:0 0 8px">Paste CDMO / vendor names (one per line). Flags FDA watch-list matches with source. Educational, not regulatory advice.</p>
+  <textarea id="vl" placeholder="Acme Pharma Ltd&#10;Contoso CDMO Inc"></textarea><button class="go" onclick="SC.run()">Screen</button><div id="so"></div></div></div>
+
+<script>
+const E=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let SEARCH=[];
+function go(v){const f=SEARCH.find(x=>x.name.toLowerCase()===v.toLowerCase()||x.slug===v);if(f)location.href='company.html?c='+f.slug;}
+fetch('data/landing.json').then(r=>r.json()).then(d=>{
+ const t=d.totals;
+ document.getElementById('verdict').textContent=`${t.crls} FDA drug rejections, mapped — and ${t.cross_enforcement_firms} of those companies also surface in FDA's enforcement record.`;
+ document.getElementById('lead').textContent=`333 Complete Response Letters (${t.year_min}–${t.year_max}) across ${t.companies} companies, fused with recalls, Import Alert 66-40, and debarment. ${t.top_deficiency} is the most-cited reason FDA says no (${t.top_deficiency_n} citations). Find out who's exposed — and whether your vendors are.`;
+ const k=[['CRLs',t.crls],['Companies',t.companies],['Cross-enforcement',t.cross_enforcement_firms,1],['Repeat-rejected',t.repeat_rejected_firms],['Import-Alert firms',t.ia_firms],['Debarments',t.debarments]];
+ document.getElementById('kpis').innerHTML=k.map(x=>`<div class="kpi${x[2]?' hot':''}"><div class="n">${x[1]}</div><div class="l">${x[0]}</div></div>`).join('');
+ document.getElementById('marquee').innerHTML=d.marquee.map(m=>`<a class="mq" href="company.html?c=${m.slug}"><div class="nm">${E(m.name)}</div><div class="ev">${m.events} enforcement signal${m.events>1?'s':''} · ${m.crls} CRL${m.crls>1?'s':''}</div><div class="via">via ${E((m.via||[]).join(', '))} →</div></a>`).join('');
+ document.querySelector('#exposed tbody').innerHTML=d.most_exposed.map(x=>`<tr><td><a href="company.html?c=${x.slug}">${E(x.name)}</a></td><td>${x.crls}</td><td>${x.events} (${E(x.kinds.join(', '))})</td><td><b>${x.exp}</b> ${x.band}</td></tr>`).join('');
+ const def=d.deficiency_categories.slice(0,8);
+ new Chart(cDef,{type:'bar',data:{labels:def.map(x=>x[0]),datasets:[{data:def.map(x=>x[1]),backgroundColor:'#4F46E5'}]},options:{indexAxis:'y',plugins:{legend:{display:false}},maintainAspectRatio:false,scales:{x:{beginAtZero:true}}}});
+ const yk=Object.keys(d.by_year);
+ new Chart(cYear,{type:'line',data:{labels:yk,datasets:[{data:yk.map(y=>d.by_year[y]),borderColor:'#F59E0B',backgroundColor:'rgba(245,158,11,.12)',fill:true,tension:.3,pointRadius:2}]},options:{plugins:{legend:{display:false}},maintainAspectRatio:false}});
+});
+fetch('data/search.json').then(r=>r.json()).then(s=>{SEARCH=s;document.getElementById('cl').innerHTML=s.slice(0,300).map(x=>`<option value="${E(x.name)}">`).join('')});
+// guide (auto-greet) + screener
+const SID='s'+Math.random().toString(36).slice(2);
+function lh(v){document.getElementById('gl').style.display=v?'flex':'none'}
+const G={open(){lh(0);document.getElementById('sc').style.display='none';document.getElementById('g').style.display='flex';if(!G._o){G._o=1;G.say('')}setTimeout(()=>document.getElementById('gi').focus(),50)},
+ close(){document.getElementById('g').style.display='none';if(document.getElementById('sc').style.display!=='flex')lh(1)},
+ add(w,t){const b=document.getElementById('gb');b.insertAdjacentHTML('beforeend',`<p class="m ${w}"><span>${E(t)}</span></p>`);b.scrollTop=b.scrollHeight},
+ async say(m){if(m)this.add('g','…');let d;try{const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session:SID,msg:m})});d=await r.json()}catch(e){d={text:'The guide is briefly offline — the data and screener still work.'}}if(m){const b=document.getElementById('gb');if(b.lastElementChild)b.lastElementChild.remove()}this.add('g',d.text||'Hello.')},
+ send(){const i=document.getElementById('gi'),m=i.value.trim();if(!m)return;i.value='';this.add('u',m);this.say(m)}};
+const SC={open(){lh(0);document.getElementById('g').style.display='none';document.getElementById('sc').style.display='flex'},
+ close(){document.getElementById('sc').style.display='none';if(document.getElementById('g').style.display!=='flex')lh(1)},
+ async run(){const names=document.getElementById('vl').value.split('\n').map(s=>s.trim()).filter(Boolean);if(!names.length)return;const o=document.getElementById('so');o.innerHTML='<p class="clean">screening…</p>';let d;try{const r=await fetch('/api/screen',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({vendors:names})});d=await r.json()}catch(e){o.innerHTML='<p class="clean">screener briefly offline.</p>';return}
+  let h='';(d.results||[]).forEach(v=>{if(v.status==='FLAGGED'){h+=`<div class="hit"><b>${E(v.vendor)}</b>`;v.hits.forEach(x=>{h+=`<br>• ${E(x.list)} — ${Math.round(x.confidence*100)}% ${E(x.level)} (matched '${E(x.matched_firm||'')}')`});h+='</div>'}else h+=`<div class="clean">${E(v.vendor)} — no public watch-list match</div>`});
+  if(d.exposure)h+=`<p style="font-size:13px;margin-top:6px"><b>Exposure index: ${d.exposure.exposure_index}</b> (${E(d.exposure.band)}). Descriptive, not predictive.</p>`;o.innerHTML=h}};
+window.addEventListener('load',()=>setTimeout(()=>{if(!G._o)G.open()},1400));
+</script></body></html>
